@@ -9,14 +9,12 @@ public class AreaRect {
 //	int breadth=3;
 //	
 //	System.out.println(length*breadth);
-		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the length of rectangle");
 		int len=sc.nextInt();
 		System.out.println("Enter the breadth of rectangle");
 		int br=sc.nextInt();
 		System.out.println(len*br);
-
 	}
 
 }
