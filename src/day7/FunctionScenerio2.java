@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class FunctionScenerio2 {
 
+	public static void main(String[] args)   						//common man
+	{
+		int result=areaOfRectangle();								  //call						
+		System.out.println("Area of Rectangle is "+result);           //serve															
+	}
+	
 	public static int areaOfRectangle()							//Honest Caterer
 	{
 		Scanner sc=new Scanner(System.in);
@@ -18,12 +24,7 @@ public class FunctionScenerio2 {
 		return area;
 	}
 	
-	public static void main(String[] args)   						//common man
-	{
-		
-		int result=areaOfRectangle();								  //call						
-		System.out.println("Area of Rectangle is "+result);           //serve															
-	}
+	
 
 	
 	
