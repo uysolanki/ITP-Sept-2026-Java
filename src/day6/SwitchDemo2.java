@@ -36,3 +36,9 @@ public class SwitchDemo2 {
 //break - 		exit a loop/ case
 //return - 		exits a function
 //System.exit - exits the entire app
+
+//1. Burger
+//2. Fries
+//3. Cold drink
+//0. exit
+
