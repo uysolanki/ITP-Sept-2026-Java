@@ -1,0 +1,27 @@
+package day8;
+
+import java.util.Scanner;
+
+public class AreaRectangle5 {
+
+	public static void main(String[] args)   						  //common man
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter length of rectangle");
+		int length=sc.nextInt();
+		System.out.println("Enter width of rectangle");
+		int width=sc.nextInt();										  //buy
+							 					
+		System.out.println(areaOfRectangle(length,width)? "Big room": "Small room");           //serve															
+	}
+	
+	public static boolean areaOfRectangle(int len,int wid)				    //10,8
+	{									     								//80
+		return len*wid>=100;		
+	}
+	
+	
+
+	
+	
+}
